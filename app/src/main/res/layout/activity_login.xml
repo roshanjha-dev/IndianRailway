@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackgroundimage"
+    android:padding="10sp"
+    tools:context="com.example.rohandsouza.indianrailways.Login">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome To Indian Railway"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center"
+        android:textColor="#f20505"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#979393"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        android:hint="UserName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#979393"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:hint="password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/button2"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/registerbutton"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"/>
+
+
+
+
+</LinearLayout>

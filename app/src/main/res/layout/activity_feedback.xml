@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="vertical"
+        android:background="@drawable/instanthelpbkgrnd">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Department"
+            android:textColor="#f90808"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ad04f9e0"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="PNR No" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ad04f9e0"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Coach no" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginTop="18dp"
+            android:background="#ad04f9e0"
+            android:ems="10"
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            android:hint="Enter the problem..." />
+
+    </LinearLayout>

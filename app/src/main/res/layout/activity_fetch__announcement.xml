@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10sp"
+        android:orientation="vertical"
+        android:background="@drawable/announcements"
+        tools:context="com.example.rohandsouza.indianrailways.Fetch_Announcement">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginRight="10sp"
+                android:layout_weight="0.75"
+                android:inputType="textPersonName"
+                android:hint="Station"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="70sp"
+                android:layout_height="40sp"
+                android:background="@drawable/button"
+                android:layout_weight="0.25"
+                android:text="Search" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:textColor="#070be9"
+            android:padding="8sp"
+            android:divider="#989c9c"
+            android:layout_marginTop="10sp"/>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
